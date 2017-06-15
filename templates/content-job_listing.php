@@ -16,7 +16,7 @@ global $post; ?>
 	<a href="<?php the_job_permalink(); ?>">
 		<?php the_company_logo(); ?>
 		<div class="position">
-			<h3><?php the_title(); ?></h3>
+			<h3><?php wpjm_the_job_title(); ?></h3>
 			<div class="company">
 				<?php the_company_name( '<strong>', '</strong> ' ); ?>
 				<?php the_company_tagline( '<span class="tagline">', '</span>' ); ?>
